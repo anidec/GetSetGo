@@ -1,0 +1,239 @@
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    background-image: url(images/taxi.jpeg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.main-first{
+    margin: auto;
+    position: absolute;
+    top:25% ;
+    width: 100%;
+    text-align: center;
+
+}
+.first{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 7em;
+    
+}
+.nav-item{
+    padding:18px 20px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+.nav-left{
+    padding-left: 20%;
+}
+.logo{
+    padding-left: 10px;
+}
+.nav-link:hover{
+    color: #FFB830 !important;
+}
+.navigate{
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1;
+}
+.second{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(192, 190, 190);
+}
+.read-more{
+    padding:10px 50px;
+    border-radius: 0px;
+}
+.welcome{
+    background-color: rgb(233, 233, 233);
+    padding: 60px 0px;
+}
+.about h1{
+    align-content: center;
+    text-align: center !important;
+    font-weight: 900;
+    font-size: 2.4em;
+}
+.about{
+    padding: 20px !important;
+    padding-bottom: 100px;
+}
+.heading{
+    color: rgb(241, 169, 12);
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 50px; 
+}
+.c1{
+    padding-top: 20px;
+    /* text-align: center; */
+}
+.para{
+    font-family: 'Hina Mincho', serif;
+    font-size: 1.3em;
+    margin-bottom: 50px;
+}
+.round{
+    size: 50%;
+    width: 80%;
+    
+
+}
+.center{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+/* .card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+} */
+.cardbody{
+    background-color: rgb(44, 42, 42);
+    color: #FFB830;
+}
+.first2{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+.links{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.links a:hover{
+    color: #FFB830;
+}
+.c2{
+    text-align: center;
+}
+.chead{
+    padding-bottom: 60px;
+    padding-top: 40px;
+    color: white;
+    background-color: black;
+}
+.rate{
+    color: rgb(233, 233, 233);
+    width: 100%;
+    background-color: #FFB830;
+    padding: 20px 0px;
+}
+.rates{
+    padding: 60px 0px;
+    background-color:rgb(233, 233, 233)
+}
+.cbody{
+    line-height: 2;
+    padding: 70px;
+    color: white;
+    background-color: rgb(80, 79, 79);
+}
+.cbtn{
+    padding: 10px 40px;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+.card1{
+    margin-top: 70px;
+}
+.footer{
+    padding: 80px;
+    color: white;
+    background-color: black;
+}
+.final-list li{
+    list-style: none;
+}
+.final-list a{
+    text-decoration: none;
+    color: white;
+}
+.port{
+    background-image: url("https://st4.depositphotos.com/4908825/i/600/depositphotos_256924024-stock-photo-portrait-excited-man-standing-yellow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.port h2{
+    color: whitesmoke;
+    font-size: 2.5em;
+    width: 40%;
+    top: 30%;
+    left: 10%;
+    position: relative;
+}
+@media only screen and (max-width: 650px) {
+    .first{
+        font-size: 2.8rem;
+    }
+    .main{
+        height: 40rem;
+    }
+    .main-first{
+        top:20%
+    }
+    .second{
+        font-size: 1.2rem;
+    }
+    .mobile-heading{
+        text-align: center;
+    }
+    .mobile-heading-hr{
+        margin:auto;
+    }
+    .btn-center{
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .card1{
+        margin: 50px 0px;
+    }
+    .port{
+        background-image:url(images/image.jpeg);
+        height: 35rem;
+    }
+    .port h2{
+        top: 20%;
+        font-size: 2rem;
+        width: 80%;
+    }
+    .gap{
+        margin-bottom: 10px;
+    }
+    .chead{
+        padding: 20px;
+    }
+    .cbody{
+        padding: 40px;
+    }
+    .links a{
+        padding: 2.5px;
+    }
+  }
